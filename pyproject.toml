@@ -1,0 +1,15 @@
+[project]
+name = "autogen"
+version = "0.0.1"
+description = "autogen testing"
+authors = [
+    {name = "leotraven", email = "leo@traven.de"},
+]
+dependencies = [
+    "pyautogen==0.1.14",
+    "openai>=0.28.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
